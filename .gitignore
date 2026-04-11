@@ -1,0 +1,41 @@
+# Data (too large for git)
+data/
+*.csv
+*.tsv
+*.pt
+*.pth
+*.svs
+*.tiff
+*.tif
+
+# Results
+results/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
