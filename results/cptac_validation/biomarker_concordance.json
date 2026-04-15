@@ -1,0 +1,52 @@
+{
+  "ER_UPDATED_CLINICAL_STATUS | Tamoxifen_1199": {
+    "expected": "ER+_lower",
+    "mean_ER+": 3.4428625106811523,
+    "n_ER+": 81,
+    "mean_ER-": 3.444765090942383,
+    "n_ER-": 39,
+    "delta": -0.0019025802612304688,
+    "mannwhitney_p": 0.006467392698078031,
+    "concordant_direction": true
+  },
+  "ER_UPDATED_CLINICAL_STATUS | Fulvestrant_1816": {
+    "expected": "ER+_lower",
+    "mean_ER+": 3.5994069576263428,
+    "n_ER+": 81,
+    "mean_ER-": 3.6009552478790283,
+    "n_ER-": 39,
+    "delta": -0.0015482902526855469,
+    "mannwhitney_p": 0.0014319843451342969,
+    "concordant_direction": true
+  },
+  "ERBB2_UPDATED_CLINICAL_STATUS | Lapatinib_1558": {
+    "expected": "HER2+_lower",
+    "mean_HER2+": 5.920363903045654,
+    "n_HER2+": 13,
+    "mean_HER2-": 5.9212775230407715,
+    "n_HER2-": 82,
+    "delta": -0.0009136199951171875,
+    "mannwhitney_p": 0.6069979800652107,
+    "concordant_direction": true
+  },
+  "TNBC_UPDATED_CLINICAL_STATUS | Cisplatin_1005": {
+    "expected": "TNBC_lower",
+    "mean_TNBC": 0.43552500009536743,
+    "n_TNBC": 28,
+    "mean_non-TNBC": 0.4307210445404053,
+    "n_non-TNBC": 91,
+    "delta": 0.004803955554962158,
+    "mannwhitney_p": 0.00034323130391946646,
+    "concordant_direction": false
+  },
+  "TNBC_UPDATED_CLINICAL_STATUS | Paclitaxel_1080": {
+    "expected": "TNBC_lower",
+    "mean_TNBC": -4.766701698303223,
+    "n_TNBC": 28,
+    "mean_non-TNBC": -4.770679950714111,
+    "n_non-TNBC": 91,
+    "delta": 0.003978252410888672,
+    "mannwhitney_p": 9.141926046673947e-05,
+    "concordant_direction": false
+  }
+}
